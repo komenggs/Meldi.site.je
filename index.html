@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meldi Armansah | Information Systems | UI/UX Designer | Web Developer</title>
+    <meta name="description" content="Portfolio Meldi Armansah — Information Systems, UI/UX Design, Web Development, Web Deployment, and Artificial Intelligence.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Meldi Armansah | Professional Portfolio">
+    <meta property="og:description" content="Portfolio of Meldi Armansah - UI/UX Designer, Web Developer & AI Enthusiast">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css?v=3">
+</head>
+<body>
+    <!-- Theme Toggle logic happens in script.js, but we ensure body defaults are ready -->
+<nav id="navbar" class="navbar">
+    <div class="nav-container container">
+        <a href="#home" class="nav-logo">
+            <span class="logo-text">Meldi Armansah<span class="text-accent">.</span></span>
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#webdev" class="nav-link">Web</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-actions">
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                <i data-lucide="moon" class="icon-moon"></i>
+                <i data-lucide="sun" class="icon-sun"></i>
+            </button>
+            
+            <button id="hamburger" class="hamburger-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero section bg-s1">
+        <div class="container hero-content">
+            <div class="hero-text reveal">
+                <p class="greeting">Hi, I'm</p>
+                <h1>Meldi Armansah</h1>
+                <div class="hero-role"></div>
+                <p class="hero-desc">
+                    Saya mengembangkan solusi digital melalui perpaduan desain yang berorientasi pada pengguna, pengembangan aplikasi web, dan teknologi modern.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/meldi-armansah-7b11bb424/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://www.instagram.com/meldi_armansah/" target="_blank" class="social-icon" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-shape"></div>
+                <!-- Using a nice elegant placeholder -->
+                <img src="assets/images/poto.jpg" alt="Meldi Armansah" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section bg-s2">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="text-accent" style="width: 60px; height: 4px; background: var(--accent); margin: 0 auto; border-radius: 2px;"></div>
+            </div>
+            
+            <div class="about-grid reveal">
+                <div class="about-text">
+                    <p>Saya memiliki latar belakang pendidikan di bidang Sistem Informasi dengan ketertarikan pada analisis dan pengembangan sistem, UI/UX Design, Web Development, database, dan teknologi kecerdasan buatan.</p>
+                    <p style="margin-top: 16px;">Saya senang mempelajari teknologi baru dan mengembangkan solusi digital yang memiliki tampilan menarik, mudah digunakan, serta sesuai dengan kebutuhan pengguna.</p>
+                </div>
+                
+                <div class="about-cards">
+                    <div class="about-card">
+                        <h4>Education</h4>
+                        <p>Information Systems</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>Focus</h4>
+                        <p>UI/UX & Web Dev</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>Interest</h4>
+                        <p>Artificial Intelligence</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>Location</h4>
+                        <p>Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT I DO / SERVICES SECTION -->
+    <section class="section bg-s3">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">What I Do</h2>
+                <div class="text-accent" style="width: 60px; height: 4px; background: var(--accent); margin: 0 auto; border-radius: 2px;"></div>
+            </div>
+            
+            <div class="services-grid reveal">
+                                <div class="service-card">
+                    <div class="service-icon">
+                                                    <img src="assets/images/what-i-do-uiux.jpg" alt="UI/UX Design">
+                                            </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing clean, intuitive, and user-centered digital interfaces.</p>
+                </div>
+                                <div class="service-card">
+                    <div class="service-icon">
+                                                    <img src="assets/images/what-i-do-web-development.jpg" alt="Web Development">
+                                            </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and functional websites and web applications.</p>
+                </div>
+                                <div class="service-card">
+                    <div class="service-icon">
+                                                    <img src="assets/images/what-i-do-deployment.jpg" alt="Web Deployment">
+                                            </div>
+                    <h3>Web Deployment</h3>
+                    <p>Deploying websites and applications to hosting and production environments.</p>
+                </div>
+                                <div class="service-card">
+                    <div class="service-icon">
+                                                    <img src="assets/images/what-i-do-ai.jpg" alt="AI & Computer Vision">
+                                            </div>
+                    <h3>AI & Computer Vision</h3>
+                    <p>Exploring image classification and computer vision solutions.</p>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section bg-s4">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">My Skills</h2>
+                <div class="text-accent" style="width: 60px; height: 4px; background: var(--accent); margin: 0 auto; border-radius: 2px;"></div>
+            </div>
+            
+            <div class="skills-container reveal">
+                                <div class="skill-group">
+                    <h3>TECHNICAL SKILLS</h3>
+                    <div class="skill-tags">
+                                                <span class="skill-badge">HTML</span>
+                                                <span class="skill-badge">CSS</span>
+                                                <span class="skill-badge">JavaScript</span>
+                                                <span class="skill-badge">PHP</span>
+                                                <span class="skill-badge">MySQL</span>
+                                                <span class="skill-badge">Laravel</span>
+                                                <span class="skill-badge">Git</span>
+                                                <span class="skill-badge">GitHub</span>
+                                            </div>
+                </div>
+                                <div class="skill-group">
+                    <h3>ROBLOX GAME DEVELOPMENT</h3>
+                    <div class="skill-tags">
+                                                <span class="skill-badge">Roblox Studio</span>
+                                                <span class="skill-badge">Luau</span>
+                                                <span class="skill-badge">Lua</span>
+                                                <span class="skill-badge">Roblox API</span>
+                                                <span class="skill-badge">Gameplay Programming</span>
+                                                <span class="skill-badge">Game Systems Development</span>
+                                                <span class="skill-badge">UI Development</span>
+                                                <span class="skill-badge">Debugging</span>
+                                                <span class="skill-badge">Game Optimization</span>
+                                            </div>
+                </div>
+                                <div class="skill-group">
+                    <h3>UI/UX DESIGN</h3>
+                    <div class="skill-tags">
+                                                <span class="skill-badge">Figma</span>
+                                                <span class="skill-badge">Wireframing</span>
+                                                <span class="skill-badge">Prototyping</span>
+                                                <span class="skill-badge">User Flow</span>
+                                                <span class="skill-badge">UI Design</span>
+                                                <span class="skill-badge">UX Design</span>
+                                                <span class="skill-badge">Design System</span>
+                                            </div>
+                </div>
+                                <div class="skill-group">
+                    <h3>AI / COMPUTER VISION</h3>
+                    <div class="skill-tags">
+                                                <span class="skill-badge">Python</span>
+                                                <span class="skill-badge">PyTorch</span>
+                                                <span class="skill-badge">CNN</span>
+                                                <span class="skill-badge">EfficientNet</span>
+                                                <span class="skill-badge">Grad-CAM++</span>
+                                                <span class="skill-badge">OpenCV</span>
+                                            </div>
+                </div>
+                                <div class="skill-group">
+                    <h3>DEPLOYMENT</h3>
+                    <div class="skill-tags">
+                                                <span class="skill-badge">cPanel</span>
+                                                <span class="skill-badge">Shared Hosting</span>
+                                                <span class="skill-badge">VPS</span>
+                                                <span class="skill-badge">Git</span>
+                                                <span class="skill-badge">GitHub</span>
+                                                <span class="skill-badge">Domain & Hosting</span>
+                                                <span class="skill-badge">Basic Server Configuration</span>
+                                            </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION SECTION -->
+    <section id="experience" class="section bg-s5">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Experience & Education</h2>
+                <div class="text-accent" style="width: 60px; height: 4px; background: var(--accent); margin: 0 auto; border-radius: 2px;"></div>
+            </div>
+
+            <div class="timeline reveal">
+                <!-- Experience -->
+                                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - 2026</span>
+                        <h3 class="timeline-title">Roblox Game Developer</h3>
+                        <p class="timeline-subtitle">Independent / Freelance</p>
+                        <p class="timeline-desc">Mengembangkan game di platform Roblox menggunakan Roblox Studio dan bahasa pemrograman Luau. Bertanggung jawab atas pengembangan script dan sistem gameplay, implementasi fitur interaktif, pengembangan UI, serta debugging dan optimasi untuk meningkatkan fungsionalitas dan pengalaman bermain. Terlibat dalam pengembangan berbagai sistem game, termasuk mekanisme permainan, interaksi pemain, dan sistem pendukung gameplay.</p>
+                        <div class="tech-stack" style="margin: 0; padding-top: 12px; border-top: 1px solid var(--border);">
+                                                        <span class="tech-tag">Roblox Studio</span>
+                                                        <span class="tech-tag">Luau</span>
+                                                        <span class="tech-tag">Lua</span>
+                                                        <span class="tech-tag">Roblox API</span>
+                                                        <span class="tech-tag">Gameplay Programming</span>
+                                                        <span class="tech-tag">UI Development</span>
+                                                        <span class="tech-tag">Debugging</span>
+                                                        <span class="tech-tag">Game Optimization</span>
+                                                    </div>
+                                                <div class="timeline-gallery">
+                                                        <img src="assets/images/roblox1.png" alt="Dokumentasi Kegiatan">
+                                                        <img src="assets/images/roblox2.png" alt="Dokumentasi Kegiatan">
+                                                        <img src="assets/images/mountkesel.png" alt="Dokumentasi Kegiatan">
+                                                        <img src="assets/images/paskal.png" alt="Dokumentasi Kegiatan">
+                                                    </div>
+                                            </div>
+                </div>
+                
+                <!-- Education -->
+                                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">[2022] - [2026]</span>
+                        <h3 class="timeline-title">Sistem Informasi</h3>
+                        <p class="timeline-subtitle">UNIVERSITAS GUNADARMA</p>
+                        <p class="timeline-desc">Memiliki fokus pembelajaran pada pengembangan sistem informasi, pemrograman, basis data, UI/UX Design, pengembangan aplikasi,  berbasis web, serta teknologi kecerdasan buatan.</p>
+                                                    <ul style="list-style: disc; margin-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+                                                                <li>Academic Project: Pembuatan Website Top Up Game KMGSTORE Menggunakan PHP dan MySQL.</li>
+                                                                <li>Academic Project: Sistem Informasi Inventory PT JeWePe Steel berbasis web menggunakan Laravel dan MySQL.</li>
+                                                            </ul>
+                                                                        <div class="timeline-gallery">
+                                                        <img src="assets/images/kmgstore1.png" alt="Dokumentasi Pendidikan">
+                                                        <img src="assets/images/dashboard.inventory.png" alt="Dokumentasi Pendidikan">
+                                                    </div>
+                                            </div>
+                </div>
+                                
+                <!-- Activities -->
+                                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oktober 2025 - Desember 2025</span>
+                        <h3 class="timeline-title">Programmer</h3>
+                        <p class="timeline-subtitle">Perancangan Pemrograman Sistem Informasi</p>
+                        <p class="timeline-desc">Berperan sebagai Programmer dalam pengembangan website Jumantik melalui proyek PPSI. Bertanggung jawab atas penulisan kode program, pengembangan dan implementasi fitur website, serta pengujian dan perbaikan sistem untuk memastikan website berfungsi sesuai kebutuhan.</p>
+                        <div class="tech-stack" style="margin: 0; padding-top: 12px; border-top: 1px solid var(--border);">
+                                                        <span class="tech-tag">PHP</span>
+                                                        <span class="tech-tag">Web Development</span>
+                                                        <span class="tech-tag">Database Management</span>
+                                                        <span class="tech-tag">Problem Solving</span>
+                                                        <span class="tech-tag">Debugging</span>
+                                                    </div>
+                                                <div class="timeline-gallery">
+                                                        <img src="assets/images/jumantik3.png" alt="Dokumentasi Aktivitas">
+                                                        <img src="assets/images/jumantik4.png" alt="Dokumentasi Aktivitas">
+                                                    </div>
+                                            </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+    <!-- WEB DEVELOPMENT SECTION -->
+    <section id="webdev" class="section bg-s7">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Web Development & Deployment</h2>
+                <p class="section-subtitle">Building functional web applications and bringing them to life.</p>
+            </div>
+
+            <div class="web-projects reveal">
+                                <div class="web-card">
+                    <div class="web-img-wrapper">
+                        <img src="assets/images/inventory.png" alt="Sistem Informasi Inventory PT JewePe Steel" class="web-img">
+                    </div>
+                    <div class="web-info">
+                        <h3>Sistem Informasi Inventory PT JewePe Steel</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 8px;"><strong>Role:</strong> Full Stack Developer | <strong>Deployment:</strong> [Hostinger]</p>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px;">Sistem informasi berbasis web untuk membantu pengelolaan data barang, kategori, stok, dan dashboard inventory.</p>
+                        
+                        <h4 style="font-size: 1rem; margin-bottom: 8px;">Tech Stack:</h4>
+                        <div class="tech-stack" style="margin-top: 0;">
+                                                        <span class="tech-tag">PHP</span>
+                                                        <span class="tech-tag">Laravel</span>
+                                                        <span class="tech-tag">MySQL</span>
+                                                        <span class="tech-tag">Bootstrap</span>
+                                                        <span class="tech-tag">JavaScript</span>
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="web-card">
+                    <div class="web-img-wrapper">
+                        <img src="assets/images/kmgstore.png" alt="KMG STORE - TOP UP GAME" class="web-img">
+                    </div>
+                    <div class="web-info">
+                        <h3>KMG STORE - TOP UP GAME</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 8px;"><strong>Role:</strong> Web Developer | <strong>Deployment:</strong> [Hostinger]</p>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px;">Website top up game yang dikembangkan untuk memudahkan pengguna membeli item atau mata uang dalam game. Website ini dilengkapi dengan sistem autentikasi pengguna, pemilihan nominal top up, pilihan metode pembayaran, pemrosesan transaksi, serta dashboard admin untuk mengelola pengguna dan transaksi.</p>
+                        
+                        <h4 style="font-size: 1rem; margin-bottom: 8px;">Tech Stack:</h4>
+                        <div class="tech-stack" style="margin-top: 0;">
+                                                        <span class="tech-tag">PHP</span>
+                                                        <span class="tech-tag">MySQL</span>
+                                                        <span class="tech-tag">HTML</span>
+                                                        <span class="tech-tag">CSS</span>
+                                                        <span class="tech-tag">JavaScript</span>
+                                                        <span class="tech-tag">Tailwind CSS</span>
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="web-card">
+                    <div class="web-img-wrapper">
+                        <img src="assets/images/jumantik komplit.jpeg" alt="Sistem Jumantik Pondok Kopi" class="web-img">
+                    </div>
+                    <div class="web-info">
+                        <h3>Sistem Jumantik Pondok Kopi</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 8px;"><strong>Role:</strong> Project Manager & Programmer | <strong>Deployment:</strong> [Hostinger]</p>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px;">Website Sistem Jumantik Pondok Kopi untuk membantu pengelolaan informasi dan kegiatan pemantauan jentik nyamuk di lingkungan masyarakat.</p>
+                        
+                        <h4 style="font-size: 1rem; margin-bottom: 8px;">Tech Stack:</h4>
+                        <div class="tech-stack" style="margin-top: 0;">
+                                                        <span class="tech-tag">PHP</span>
+                                                        <span class="tech-tag">Laravel</span>
+                                                        <span class="tech-tag">MySQL</span>
+                                                        <span class="tech-tag">Bootstrap</span>
+                                                        <span class="tech-tag">JavaScript</span>
+                                                    </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+    <!-- AI & MACHINE LEARNING SECTION -->
+    <section id="projects" class="section bg-s8">
+        <div class="container">
+
+<div class="section-header reveal">
+    <h2 class="section-title">Roblox Game Developer</h2>
+    <p class="section-subtitle">Developing immersive Roblox experiences through creative gameplay, scripting, and interactive game systems.</p>
+</div>
+
+
+                        <div class="web-card ai-project-card reveal">
+                <div class="web-info">
+                    <h3>Roblox Game Development</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 24px;">Mengembangkan game menggunakan Roblox Studio dengan bahasa pemrograman Luau. Bertanggung jawab atas pengembangan sistem gameplay, mekanisme interaksi pemain, antarmuka pengguna (UI), sistem progres permainan, serta integrasi fitur untuk menciptakan pengalaman bermain yang interaktif dan optimal.</p>
+                    
+                    <h4 style="font-size: 1rem; margin-bottom: 8px;">Technology:</h4>
+                    <div class="tech-stack" style="margin-top: 0; margin-bottom: 24px;">
+                                                <span class="tech-tag">Roblox Studio</span>
+                                                <span class="tech-tag">Luau</span>
+                                                <span class="tech-tag">Lua</span>
+                                                <span class="tech-tag">Roblox API</span>
+                                                <span class="tech-tag">UI/UX Development</span>
+                                                <span class="tech-tag">Game Systems Development</span>
+                                            </div>
+
+                    <h4 style="font-size: 1rem; margin-bottom: 12px;">Matrix:</h4>
+                    <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                                                <div style="background-color: var(--bg-primary); padding: 12px 24px; border-radius: var(--radius-md); border: 1px solid var(--border); text-align: center;">
+                            <span style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--accent);">Gameplay & Mechanics</span>
+                            <span style="font-size: 0.85rem; color: var(--text-secondary);">Game Development</span>
+                        </div>
+                                                <div style="background-color: var(--bg-primary); padding: 12px 24px; border-radius: var(--radius-md); border: 1px solid var(--border); text-align: center;">
+                            <span style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--accent);">Luau</span>
+                            <span style="font-size: 0.85rem; color: var(--text-secondary);">Scripting</span>
+                        </div>
+                                                <div style="background-color: var(--bg-primary); padding: 12px 24px; border-radius: var(--radius-md); border: 1px solid var(--border); text-align: center;">
+                            <span style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--accent);">Roblox GUI</span>
+                            <span style="font-size: 0.85rem; color: var(--text-secondary);">UI Development</span>
+                        </div>
+                                                <div style="background-color: var(--bg-primary); padding: 12px 24px; border-radius: var(--radius-md); border: 1px solid var(--border); text-align: center;">
+                            <span style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--accent);">Roblox</span>
+                            <span style="font-size: 0.85rem; color: var(--text-secondary);">Platform</span>
+                        </div>
+                                            </div>
+                </div>
+                <div class="web-img-wrapper">
+                    <img src="assets/images/robloxstudio.png" alt="Roblox Game Development" class="web-img">
+                </div>
+            </div>
+                    </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section bg-s9">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Have a project, collaboration, or opportunity? Feel free to get in touch.</p>
+            </div>
+
+            <div class="contact-grid reveal">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Saya terbuka untuk peluang kolaborasi dan pekerjaan di bidang UI/UX Design dan Web Development.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i data-lucide="mail"></i></div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>rbsmeldi@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i data-lucide="phone"></i></div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>085875537316</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Jakarta,Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-thank-you">
+                    <div class="thank-you-icon"><i data-lucide="sparkles"></i></div>
+                    <p class="thank-you-eyebrow">Thank you</p>
+                    <h3>Thank you for reaching out.</h3>
+                    <p>Setiap ide, kolaborasi, dan kesempatan baru sangat berarti. Saya menantikan percakapan yang bermakna bersama Anda.</p>
+                    <div class="thank-you-line"></div>
+                    <span>Meldi Armansah</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>Meldi Armansah</h3>
+                    <p>Information Systems | UI/UX Designer | Web Developer</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    </a>
+                    <a href="https://www.linkedin.com/in/meldi-armansah-7b11bb424/" target="_blank" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://www.instagram.com/meldi_armansah/" target="_blank" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Meldi Armansah. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- Main JS -->
+    <script src="assets/js/script.js?v=2"></script>
+    
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
